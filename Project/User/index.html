@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Shuffle.com</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Shuffle">
+	<meta name="keywords" content="music, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="../admin/login.php" class="site-logo">
+			<img src="images/shuffle_logo.png" alt="">
+		</a>
+		<div class="header-right">
+			<div class="user-panel">
+				<a href="login.php" class="login">Login</a>
+				<span>|</span>
+				<a href="register.php" class="register">Create an account</a>
+			</div> 
+		</div>
+		<ul class="main-menu">
+			<li><a href="#scroll">About</a></li>
+			<li><a href="contact.php">Contact</a></li>
+		</ul>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Hero section -->
+	<section class="hero-section">
+		<div class="hero-slider owl-carousel">
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>Music</span> for everyone.</h2>
+								<a href="register.php" class="site-btn">Join Now</a>
+								<a href="#" class="site-btn sb-c2">Start free trial</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="images/hero-bg.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hs-text">
+								<h2><span>Listen </span> to new music.</h2>
+								<a href="#" class="site-btn">Download Now</a>
+								<a href="#" class="site-btn sb-c2">Start free trial</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="hr-img">
+								<img src="images/hero-bg.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
+
+	<!-- Intro section -->
+	<div id="scroll">
+	<section class="intro-section spad" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Unlimited Access to 100K tracks</h2>
+					</div>
+				</div>
+				<div class="col-lg-30">
+					<a href="#" class="site-btn">Try it now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	</div>
+	<!-- Intro section end -->
+
+	<!-- How section -->
+	<section class="how-section spad set-bg" data-setbg="img/how-to-bg.jpg">
+		<div class="container text-white">
+			<div class="section-title">
+				<h2>How it works</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="images/icons/brain.png" alt="">
+						</div>
+						<h4>Create an account</h4>
+						</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="images/icons/pointer.png" alt="">
+						</div>
+						<h4>Choose a plan</h4>
+						</div>
+				</div>
+				<div class="col-md-4">
+					<div class="how-item">
+						<div class="hi-icon">
+							<img src="images/icons/smartphone.png" alt="">
+						</div>
+						<h4>Download Music</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- How section end -->
+
+	<!-- Concept section -->
+	<section class="concept-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Our Concept & artists</h2>
+					</div>
+				</div>
+				<div class="col-lg-6">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="images/concept/1.jpg" alt="">
+						<h5>Soul Music</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="images/concept/2.jpg" alt="">
+						<h5>Live Concerts</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="images/concept/3.jpg" alt="">
+						<h5>Dj Sets</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="concept-item">
+						<img src="images/concept/4.jpg" alt="">
+						<h5>Live Streems</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Concept section end -->
+
+	<!-- Subscription section -->
+	<section class="subscription-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="sub-text">
+						<h2>Subscribe for better experience</h2>
+						<a href="#" class="site-btn">Try it now</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<ul class="sub-list">
+						<li><img src="images/icons/check-icon.png" alt="">Play any track</li>
+						<li><img src="images/icons/check-icon.png" alt="">Listen offline</li>
+						<li><img src="images/icons/check-icon.png" alt="">No ad interruptions</li>
+						<li><img src="images/icons/check-icon.png" alt="">Unlimited skips</li>
+						<li><img src="images/icons/check-icon.png" alt="">High quality audio</li>
+						<li><img src="images/icons/check-icon.png" alt="">Shuffle play</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Subscription section end -->
+
+	<!-- Premium section end -->
+	<section class="premium-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Why go Premium</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="images/premium/1.jpg" alt="">
+						<h4>No ad interruptions </h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="images/premium/2.jpg" alt="">
+						<h4>High Quality</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="images/premium/3.jpg" alt="">
+						<h4>Listen Offline</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="premium-item">
+						<img src="images/premium/4.jpg" alt="">
+						<h4>Download Music</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Premium section end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
