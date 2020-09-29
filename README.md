@@ -1,4 +1,4 @@
-# Online-Music-Streaming-Application
+# Perfectly working code for Online-Music-Streaming-Application 
 
 A music streaming Application which uses HTML, CSS, Javascript, Bootstrap in the frontend and MySQL in the backend.
 
