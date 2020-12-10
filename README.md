@@ -10,7 +10,7 @@ Steps to be followed to view the project:
 
 Step 1: Follow the steps in https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/ to intsall and gain access to MySQL and apache
 
-Step 2: Create Database named "music_streaming_app" and import the database.txt file into PHPMyAdmin.
+Step 2: Create Database named "music_streaming_app" and import the database.txt file into PHPMyAdmin(You can open it by clicking on the admin button of MySQL in Xampp control panel).
 
 Step 3: Add the project folder to the C:\xampp\htdocs folder.
 
