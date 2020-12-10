@@ -1,4 +1,4 @@
-# Perfectly working code for Online-Music-Streaming-Application 
+# Perfectly working code for Online Music Streaming Application 
 
 A music streaming Application which uses HTML, CSS, Javascript, Bootstrap in the frontend and MySQL in the backend.
 
@@ -14,6 +14,6 @@ Step 2: Create Database named "music_streaming_app" and import the database.txt 
 
 Step 3: Add the project folder to the C:\xampp\htdocs folder.
 
-Step 4: Click the admin button near the Apache in the Xampp control panel.
+Step 4: Click the admin button of Apache in the Xampp control panel.
 
 Step 5: Open Project folder. Click on user to use the application. Click on admin to add new songs or albums or artists to the database.
